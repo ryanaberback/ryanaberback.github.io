@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Science Communication | Ryan Aberback</title>
+    <link>http://example.org/tag/science-communication/</link>
+      <atom:link href="http://example.org/tag/science-communication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Science Communication</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://example.org/media/icon_hu05ff2240ed9342f8c2eef6e90f5af501_139557_512x512_fill_lanczos_center_2.png</url>
+      <title>Science Communication</title>
+      <link>http://example.org/tag/science-communication/</link>
+    </image>
+    
+    <item>
+      <title>Concordia Journal of Psychology and Neuroscience</title>
+      <link>http://example.org/project/cjpn/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://example.org/project/cjpn/</guid>
+      <description>&lt;p&gt;&lt;em&gt;CJPN&lt;/em&gt; is a group of dedicated graduate and undergraduate students from Concordia University. We are passionate about scientific communication, open inquiry, and diversity of thought.&lt;/p&gt;
+&lt;p&gt;Effective communication is an indispensable mechanism that allows scientific inquiry to flourish. As such, learning the necessary skills to effectively communicate science is a crucial tool for any young scientist. CJPN seeks to enhance student life by providing students in the psychology department with unique opportunities that will enrich their understanding of the scientific process, as well as benefit their future careers.&lt;/p&gt;
+&lt;p&gt;We offer students a more traditional route to publishing their research by preparing a scientific manuscript and going through a peer-review process with fellow undergraduate and graduate students in psychology. Because the discipline of psychology is extremely competitive at the graduate level and beyond, many students are eager to gain such experiences in manuscript preparation and collaboration; skills that will inevitably make them competitive candidates for future graduate studies. Moreover, CJPN provides senior undergraduates with editorial experience, specifically, with the opportunity to become a peer-reviewer. These undergraduate reviewers, in collaboration with graduate student reviewers, will gain sought-after professional skills, as well as an inside look into how professional science is conducted.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guest Lecture</title>
+      <link>http://example.org/talk/guest-lecture/</link>
+      <pubDate>Wed, 10 Oct 2018 13:15:00 +0000</pubDate>
+      <guid>http://example.org/talk/guest-lecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is Psychological Science?</title>
+      <link>http://example.org/talk/what-is-psychological-science/</link>
+      <pubDate>Wed, 03 Oct 2018 13:15:00 +0000</pubDate>
+      <guid>http://example.org/talk/what-is-psychological-science/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

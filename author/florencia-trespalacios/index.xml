@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Florencia Trespalacios | Ryan Aberback</title>
+    <link>http://example.org/author/florencia-trespalacios/</link>
+      <atom:link href="http://example.org/author/florencia-trespalacios/index.xml" rel="self" type="application/rss+xml" />
+    <description>Florencia Trespalacios</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://example.org/media/icon_hu05ff2240ed9342f8c2eef6e90f5af501_139557_512x512_fill_lanczos_center_2.png</url>
+      <title>Florencia Trespalacios</title>
+      <link>http://example.org/author/florencia-trespalacios/</link>
+    </image>
+    
+    <item>
+      <title>High Anxiety Moderates Mood Response to a Stressor Following Attentional Retraining</title>
+      <link>http://example.org/publication/retraining/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://example.org/publication/retraining/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

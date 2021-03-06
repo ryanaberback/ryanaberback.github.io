@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryan Aberback</title>
+    <link>http://example.org/</link>
+      <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ryan Aberback</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://example.org/media/icon_hu05ff2240ed9342f8c2eef6e90f5af501_139557_512x512_fill_lanczos_center_2.png</url>
+      <title>Ryan Aberback</title>
+      <link>http://example.org/</link>
+    </image>
+    
+    <item>
+      <title>Python basics</title>
+      <link>http://example.org/courses/example/python/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://example.org/courses/example/python/</guid>
+      <description>&lt;p&gt;Build a foundation in Python.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
+&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/rfscVS0vtbw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;What is the difference between lists and tuples?&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;Lists&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lists are mutable - they can be changed&lt;/li&gt;
+&lt;li&gt;Slower than tuples&lt;/li&gt;
+&lt;li&gt;Syntax: &lt;code&gt;a_list = [1, 2.0, &#39;Hello world&#39;]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tuples&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tuples are immutable - they can&amp;rsquo;t be changed&lt;/li&gt;
+&lt;li&gt;Tuples are faster than lists&lt;/li&gt;
+&lt;li&gt;Syntax: &lt;code&gt;a_tuple = (1, 2.0, &#39;Hello world&#39;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Is Python case-sensitive?&lt;/summary&gt;
+  &lt;p&gt;Yes&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Visualization</title>
+      <link>http://example.org/courses/example/visualization/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://example.org/courses/example/visualization/</guid>
+      <description>&lt;p&gt;Learn how to visualize data with Plotly.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
+&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/hSPmj7mK6ng&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;When is a heatmap useful?&lt;/summary&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Write Plotly code to render a bar chart&lt;/summary&gt;
+  &lt;p&gt;&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import plotly.express as px
+data_canada = px.data.gapminder().query(&amp;quot;country == &#39;Canada&#39;&amp;quot;)
+fig = px.bar(data_canada, x=&#39;year&#39;, y=&#39;pop&#39;)
+fig.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>http://example.org/courses/example/stats/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://example.org/courses/example/stats/</guid>
+      <description>&lt;p&gt;Introduction to statistics for data science.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
+&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+&lt;p&gt;The general form of the &lt;strong&gt;normal&lt;/strong&gt; probability density function is:&lt;/p&gt;
+&lt;p&gt;$$
+f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
+$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The parameter $\mu$ is the mean or expectation of the distribution.
+$\sigma$ is its standard deviation.
+The variance of the distribution is $\sigma^{2}$.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;What is the parameter $\mu$?&lt;/summary&gt;
+  &lt;p&gt;The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Oxytocin Promotes Positive Relational Behaviour Among Individuals With Major Depressive Disorder During Interpersonal Therapy</title>
+      <link>http://example.org/publication/ot_behav/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://example.org/publication/ot_behav/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concordia Journal of Psychology and Neuroscience</title>
+      <link>http://example.org/project/cjpn/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://example.org/project/cjpn/</guid>
+      <description>&lt;p&gt;&lt;em&gt;CJPN&lt;/em&gt; is a group of dedicated graduate and undergraduate students from Concordia University. We are passionate about scientific communication, open inquiry, and diversity of thought.&lt;/p&gt;
+&lt;p&gt;Effective communication is an indispensable mechanism that allows scientific inquiry to flourish. As such, learning the necessary skills to effectively communicate science is a crucial tool for any young scientist. CJPN seeks to enhance student life by providing students in the psychology department with unique opportunities that will enrich their understanding of the scientific process, as well as benefit their future careers.&lt;/p&gt;
+&lt;p&gt;We offer students a more traditional route to publishing their research by preparing a scientific manuscript and going through a peer-review process with fellow undergraduate and graduate students in psychology. Because the discipline of psychology is extremely competitive at the graduate level and beyond, many students are eager to gain such experiences in manuscript preparation and collaboration; skills that will inevitably make them competitive candidates for future graduate studies. Moreover, CJPN provides senior undergraduates with editorial experience, specifically, with the opportunity to become a peer-reviewer. These undergraduate reviewers, in collaboration with graduate student reviewers, will gain sought-after professional skills, as well as an inside look into how professional science is conducted.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Not Trip Out Just Yet!</title>
+      <link>http://example.org/post/trip_out/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://example.org/post/trip_out/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This was Originally Published in &lt;a href=&#34;https://www.concordiapsychjournals.ca/cjap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Concordia&amp;rsquo;s Journal of Accessible Psychology&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Don your flower crowns and turn up the Hendrix - psychedelics are back! Through legally conducted research with these illegal substances, scientists have found that psilocybin, the ingredient in hallucinogenic mushrooms that makes people feel “groovy”, is associated with improvements in people’s mental health. The varied effects of psilocybin such as intense introspective insights, visual hallucinations, and euphoria give credence to the etymology of the term psychedelic (&lt;em&gt;psyche&lt;/em&gt; for mind and &lt;em&gt;delos&lt;/em&gt; for manifesting in Greek). Perhaps there was a reason why the hippies were such a happy bunch after all. But let’s not trip out &lt;em&gt;just&lt;/em&gt; yet!&lt;/p&gt;
+&lt;p&gt;Within the last five years, research has shown that ingesting a single high dose of psilocybin is associated with changes in brain function that help alleviate symptoms of treatment resistant depression &lt;sup&gt;[1]&lt;/sup&gt;. Psychedelic science offers promise to those who are suffering from treatment-resistant depression, as well as insights about this poorly understood disorder. Other studies have found that taking psilocybin reduces the symptoms of depression and anxiety in patients with terminal cancer &lt;sup&gt;[2]&lt;/sup&gt; &lt;sup&gt;[3]&lt;/sup&gt;. Post psilocybin high, patients report feeling comfortable with their fate, and even express a tranquil willingness to greet death as a friend instead of a foe.&lt;/p&gt;
+&lt;p&gt;Research out of Johns Hopkins University has found that participants consistently rate their drug experience, or what researchers call a “mystical experience”, as one of the five most meaningful events in their lives &lt;sup&gt;[4]&lt;/sup&gt;. In other words, people report that their psychedelic trip is as meaningful to them as the birth of their first child, their marriage, or even the death of a parent or spouse.
+If these psilocybin studies weren’t surprising enough, researchers have also found that taking magic mushrooms may be a viable way to help people quit cigarette smoking. After receiving two to three doses of psilocybin in a therapeutic environment aimed at smoking cessation, 80% of participants reported that they had not smoked for six months after they took the drug &lt;sup&gt;[5]&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Understandably, we have a reason to be excited about psychedelics, and this excitement has permeated pop culture. World famous author Michael Pollan recently published How to Change Your Mind: What the New Science of Psychedelics Teaches Us About Consciousness, Dying, Addiction, Depression, and Transcendence, which focuses on the history and current state of psychedelic science. Pollan’s authorship is far reaching, and the New York Times Book Review named How to Change your Mind one of the best books of 2018. Clearly, people are taking an interest in psychedelics. But if millions of people are learning about psychedelic science, then it is equally important for the public to be informed about what we can actually glean from the scientific literature.&lt;/p&gt;
+&lt;p&gt;There is still reason to be skeptical of all of the supposed improvements to be gained from using psilocybin. Our current understanding of psychedelics is severely limited by the scientific process – as are most research topics that are still in their infancy. When scientists embark on a new drug project, they typically start their experiments using animal models, usually rats and chimpanzees. After fruitful results are obtained using non-human animal models, scientists then graduate to experimenting on humans.&lt;/p&gt;
+&lt;p&gt;However, even human participants carry with them ethical and methodological limitations. Most of the current literature regarding psychedelics is conducted in small samples, usually under 50 participants, most of whom have severe mental or physical illnesses (e.g., depression, cancer). Results obtained from such studies may simply be false positives, and as such, replicating these types of findings is needed before reaching any definitive conclusions. In a related vein, psychedelic research studies attempt to employ double-blind procedures, whereby experimenters and participants are unaware if participants are receiving the actual drug or a placebo. The only problem is that participants and experimenters alike can easily discern (perhaps comically) if the participants have received a dose of psilocybin. As such, randomized control studies that administer psilocybin often introduce experimenter bias into their results, where experimenters may behave differently with participants depending on what drug the participant received. This bias fundamentally limits the generalizability of psychedelic research &lt;sup&gt;[6]&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;So why is the public unaware that psychedelic research is not conducted with large samples of healthy adults? After all, the difference between small clinical samples and the general population is quite large. And further, how can the public continue to jump for joy while unaware of such limitations? Perhaps because no one is telling them. For instance, the current craze of “micro-dosing”, taking very small doses of Lysergic Acid Diethylamide (LSD) or psilocybin that produce non-hallucinogenic effects, is an example of the miscommunication between the public and the scientific community. To date, there are over 118,000 self-described micro-dosers on the online community site reddit.com. However, there is no scientific evidence that taking minute doses of these drugs produces any beneficial effects. Moreover, there is no scientific consensus about the proper micro-dose schedule, that is, how much and how often one should micro-dose &lt;sup&gt;[7]&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;There is also a risk, albeit a small one, that psychedelics can actually cause symptoms of mental illness. It is possible that some people will experience symptoms of paranoia and psychosis even after the drug high has worn off. This has to do with the biochemistry of psychedelics, which mimic the symptoms of psychosis and schizophrenia. Indeed, before the term psychedelic was ever coined, a common term in the scientific community was &lt;em&gt;psychomimetic&lt;/em&gt; (meaning psychosis mimicking) &lt;sup&gt;[8]&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;In summary, findings from the psychedelic literature are exciting, however, they must be taken with a grain of salt. Currently, it is not the case that psychedelics are to mental illness as Tylenol is to headaches. It would be irresponsible to tell the public that psychedelics are completely devoid of risk when we have yet to conduct larger studies, which include non-clinical populations. If we have learned anything from the 60’s, it is that advocating for the use of psychedelics is not accomplished by being the loudest voice on the block. Instead, being informed and properly communicating the scientific literature to the public may be our best bet to push psychedelic research back into the mainstream.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[1] Carhart-Harris, R. L., Roseman, L., Bolstridge, M., Demetriou, L., Pannekoek, J. N., Wall, M. B., &amp;hellip; &amp;amp; Leech, R. (2017). Psilocybin for treatment-resistant depression: fMRI-measured brain mechanisms. Scientific reports, 7, 13187.&lt;/p&gt;
+&lt;p&gt;[2] Griffiths, R. R., Johnson, M. W., Carducci, M. A., Umbricht, A., Richards, W. A., Richards, B. D., &amp;hellip; &amp;amp; Klinedinst, M. A. (2016). Psilocybin produces substantial and sustained decreases in depression and anxiety in patients with life-threatening cancer: A randomized double-blind trial. Journal of psychopharmacology, 30, 1181-1197.&lt;/p&gt;
+&lt;p&gt;[3] Ross, S., Bossis, A., Guss, J., Agin-Liebes, G., Malone, T., Cohen, B., … Schmidt, B. L. (2016). Rapid and sustained symptom reduction following psilocybin treatment for anxiety and depression in patients with life-threatening cancer: a randomized controlled trial. Journal of Psychopharmacology, 30(12), 1165–1180.&lt;/p&gt;
+&lt;p&gt;[4] Griffiths, R. R., Richards, W. A., Johnson, M. W., McCann, U. D., &amp;amp; Jesse, R. (2008). Mystical- type experiences occasioned by psilocybin mediate the attribution of personal meaning and spiritual significance 14 months later. Journal of psychopharmacology, 22, 621-632.&lt;/p&gt;
+&lt;p&gt;[5] Garcia-Romeu A, Griffiths RR, Johnson MW. Psilocybin-occasioned mystical experiences in the treatment of tobacco addiction. Curr Drug Abuse Rev. 2014;7(3):157‐164. DOI:10.2174/1874473708666150107121331&lt;/p&gt;
+&lt;p&gt;[6] Griffiths, R. R., Richards, W. A., McCann, U., &amp;amp; Jesse, R. (2006). Psilocybin can occasion mystical-type experiences having substantial and sustained personal meaning and spiritual significance. Psychopharmacology, 187, 268-283.&lt;/p&gt;
+&lt;p&gt;[7] Anderson, T., Petranker, R., Rosenbaum, D., Weissman, C. R., Dinh-Williams, L. A., Hui, K., &amp;hellip; &amp;amp; Farb, N. A. (2018). Microdosing Psychedelics: Personality, mental health, and creativity differences in microdosers. Psychopharmacology, 1-10.&lt;/p&gt;
+&lt;p&gt;[8] Nichols, D. E. (2016). Psychedelics. Pharmacological reviews, 68, 264-355.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>High Anxiety Moderates Mood Response to a Stressor Following Attentional Retraining</title>
+      <link>http://example.org/publication/retraining/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://example.org/publication/retraining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>http://example.org/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://example.org/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guest Lecture</title>
+      <link>http://example.org/talk/guest-lecture/</link>
+      <pubDate>Wed, 10 Oct 2018 13:15:00 +0000</pubDate>
+      <guid>http://example.org/talk/guest-lecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is Psychological Science?</title>
+      <link>http://example.org/talk/what-is-psychological-science/</link>
+      <pubDate>Wed, 03 Oct 2018 13:15:00 +0000</pubDate>
+      <guid>http://example.org/talk/what-is-psychological-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

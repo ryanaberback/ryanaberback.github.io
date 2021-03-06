@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christopher Cardoso | Ryan Aberback</title>
+    <link>http://example.org/author/christopher-cardoso/</link>
+      <atom:link href="http://example.org/author/christopher-cardoso/index.xml" rel="self" type="application/rss+xml" />
+    <description>Christopher Cardoso</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://example.org/media/icon_hu05ff2240ed9342f8c2eef6e90f5af501_139557_512x512_fill_lanczos_center_2.png</url>
+      <title>Christopher Cardoso</title>
+      <link>http://example.org/author/christopher-cardoso/</link>
+    </image>
+    
+    <item>
+      <title>Oxytocin Promotes Positive Relational Behaviour Among Individuals With Major Depressive Disorder During Interpersonal Therapy</title>
+      <link>http://example.org/publication/ot_behav/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://example.org/publication/ot_behav/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

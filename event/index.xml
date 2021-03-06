@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent Talks | Ryan Aberback</title>
+    <link>http://example.org/event/</link>
+      <atom:link href="http://example.org/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Oct 2018 13:15:00 +0000</lastBuildDate>
+    <image>
+      <url>http://example.org/media/icon_hu05ff2240ed9342f8c2eef6e90f5af501_139557_512x512_fill_lanczos_center_2.png</url>
+      <title>Recent Talks</title>
+      <link>http://example.org/event/</link>
+    </image>
+    
+    <item>
+      <title>Guest Lecture</title>
+      <link>http://example.org/talk/guest-lecture/</link>
+      <pubDate>Wed, 10 Oct 2018 13:15:00 +0000</pubDate>
+      <guid>http://example.org/talk/guest-lecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is Psychological Science?</title>
+      <link>http://example.org/talk/what-is-psychological-science/</link>
+      <pubDate>Wed, 03 Oct 2018 13:15:00 +0000</pubDate>
+      <guid>http://example.org/talk/what-is-psychological-science/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
